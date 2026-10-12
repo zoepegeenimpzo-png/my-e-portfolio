@@ -1,0 +1,15 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="420" height="420" rx="36" fill="#F8F5F0"/>
+  
+  <!-- soft shadow -->
+  <path d="M110 125H235L135 215H235" stroke="#E4DED4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M205 125V255M205 125H305M205 190H275" stroke="#E4DED4" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- main monogram -->
+  <path d="M104 119H229L129 209H229" stroke="#FFFDFC" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M199 119V249M199 119H299M199 184H269" stroke="#FFFDFC" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- subtle highlight -->
+  <path d="M103 118H228" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <path d="M198 118V248" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" opacity="0.35"/>
+</svg>
