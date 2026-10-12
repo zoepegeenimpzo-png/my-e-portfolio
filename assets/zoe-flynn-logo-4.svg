@@ -1,0 +1,17 @@
+<svg width="420" height="420" viewBox="0 0 420 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- ambient shadow -->
+  <path d="M116 130H238L142 214H239" stroke="#DDD4C8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M208 130V254M208 130H304M208 190H274" stroke="#DDD4C8" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- middle layer -->
+  <path d="M111 125H233L137 209H234" stroke="#F1EBE2" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M203 125V249M203 125H299M203 185H269" stroke="#F1EBE2" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- top face -->
+  <path d="M106 120H228L132 204H229" stroke="#FFFDFC" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M198 120V244M198 120H294M198 180H264" stroke="#FFFDFC" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- fine highlight -->
+  <path d="M108 121H227" stroke="#FFFFFF" stroke-width="3.5" stroke-linecap="round" opacity="0.9"/>
+  <path d="M197 121V243" stroke="#FFFFFF" stroke-width="2.5" stroke-linecap="round" opacity="0.4"/>
+</svg>
