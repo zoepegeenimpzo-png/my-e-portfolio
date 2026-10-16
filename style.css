@@ -280,3 +280,39 @@ margin-top: 8px;
 .project__description--para {
   margin: 16px 0;
 }
+
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+  background-color: #242424 ;
+  display: flex;
+  padding: 6% 0;
+}
+
+.footer__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo--image {
+  width:70px;
+}
+
+.footer__social--list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  max-width: 500px;
+  margin:28px 0;
+}
+
+.footer__social--link, 
+.footer__copyright {
+  color:white;
+}
