@@ -1,0 +1,28 @@
+//template_25agh1g
+//service_nb6n1iq
+//RtJuZBp5-r9C4RpiN
+
+function contact(event) {
+  event.preventDefault();
+  const loading = document.querySelector(".modal__overlay--loading");
+  const success = document.querySelector(".modal__overlay--success");
+  loading.classList += " modal__overlay--visible";
+
+  emailjs
+    .sendForm(
+      "service_nb6n1iq",
+      "template_25agh1g",
+      event.target,
+      "RtJuZBp5-r9C4RpiN",
+    )
+    .then(() => {
+      loading.classList.remove("modal__overlay--visible");
+      success.classList += " modal__overlay--visible";
+    })
+    .catch(() => {
+      loading.classList.remove("modal__overlay--visible");
+      alert(
+        "The email service is temporaily unavailable. Please contact me directly at zoepegeenimpzo@gmail.com",
+      );
+    });
+}
